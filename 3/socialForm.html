@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="header"><h1>PHP and mySQL</h1></div>
+		<div id="content">
+			<p>Enter your data below please:</p>
+			<form action="getFormInfo.php" method="POST">
+				<fieldset>
+					<label for="name">Name:</label>
+					<input type="text" size="20" name="name" /></br>
+					<label for="race">Race:</label>
+					<input type="text" size="20" name="race" /></br>
+					<label for="sex">Sex:</label>
+					<input type="text" size="10" name="sex" /></br>
+					<label for="vk">Your VK page:</label>
+					<input type="text" size="10" name="vk" /></br>
+					<label for="twitter">Twitter:</label>
+					<input type="text" size="20" name="twitter" /></br>
+				</fieldset>
+				<fieldset class="center">
+					<input type="submit" value="Join us" />
+					<input type="reset" value="Clear all" />
+				</fieldset>
+			</form>		
+		</div>
+		<div id="footer"></div>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="header"><h1>PHP and mySQL</h1></div>
+		<div id="content">
+			<p>Enter your data below please:</p>
+			<form action="create_user.php" method="POST" enctype="multipart/form-data">
+				<fieldset>
+					<label for="name">Name:</label>
+					<input type="text" size="20" name="name" /></br>
+					<label for="race">Race:</label>
+					<input type="text" size="20" name="race" /></br>
+					<label for="sex">Sex:</label>
+					<input type="text" size="10" name="sex" /></br>
+					<label for="vk">Your VK page:</label>
+					<input type="text" size="10" name="vk" /></br>
+					<label for="twitter">Twitter:</label>
+					<input type="text" size="20" name="twitter" /></br>
+					
+					<label for="user_image">Upload your avatar here (300kB max):</label>
+					<input type="file" size="30" name="user_image" /></br><br>
+					
+					<label for="bio">Biography:</label>
+					<textarea cols="30" rows="7" name="bio" maxlength="1000"></textarea></br>
+				</fieldset>
+				<fieldset class="center">
+					<input type="submit" value="Join us" />
+					<input type="reset" value="Clear all" />
+				</fieldset>
+			</form>		
+		</div>
+		<div id="footer"></div>
+	</body>
+</html>

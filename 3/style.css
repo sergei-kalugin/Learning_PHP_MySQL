@@ -1,0 +1,35 @@
+body {
+	font-family: 'Trebuchet MS'}
+	
+h1 {
+	font-size: 36px;}
+
+fieldset {
+	text-align:;}
+
+label {
+	margin: 20px;
+	font-weight: bold;
+	display: inline;}
+	
+input {
+	display: inline;
+	float:;
+	margin: 2px;}
+	
+#messages {
+	padding: 5px;
+	opacity: 0.75;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.success {
+	background: green;
+}
+
+.error {
+	background: red;
+}
+
+

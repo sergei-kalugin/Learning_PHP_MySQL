@@ -1,0 +1,46 @@
+body {
+    background: #ccc;
+  }
+  
+#content a {
+	text-decoration: none;
+	color: #888;
+	-webkit-transition: font-weight 1s;
+}
+
+#content a:hover{
+	font-weight: bold;
+}
+
+#content {
+	background: #fff;
+	color: #111;
+	width: 70%;
+	padding: 10px;
+	margin: 5px;
+	box-shadow: #444 1px 1px 10px;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS';
+  }
+
+#content h1 {
+	font-size: 38px;
+}
+
+.user_pic {
+	height: 150px;
+	float:right;
+	margin: 0 5px;
+}
+
+#header {
+	color: #222;
+	font-family: 'Trebuchet MS';
+	font-size: 20px;
+	margin: 0px;
+	padding: 10px;
+}
+
+.user_profile h1 {
+		border-bottom: #333 4px solid;
+}
